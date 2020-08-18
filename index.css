@@ -1,0 +1,62 @@
+*{
+margin: 0;
+padding: 0;
+}
+body {
+background: url(aww.jpg) no-repeat center center fixed;
+background-size: cover;
+}
+
+.container{
+color: white;
+position: absolute;
+top: 35%;
+left: 40%;
+}
+
+.container  h1{
+display: inline-block;
+font-size: 40px;
+border-bottom: 5px solid purple;
+margin-bottom: 25px;
+padding: 13px 0;
+}
+
+.box{
+width: 100%;
+margin: 22px o;
+border-bottom: 2px solid purple;
+}
+
+.box input{
+    background:  none;
+    width: 75%;
+    padding: 10px 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.box label{
+    font-size: 20px;
+}
+
+.btn{
+color: white;
+cursor: pointer;
+outline: none;
+margin: 32px 0;
+padding: 10px 21px;
+border: 2px solid purple;
+border-radius: 10px;
+font-size: 18px;
+background: none;
+font-weight: bold;
+}
+
+.btn:hover{
+opacity: 0.5;
+color: purple;
+background: white;
+}
